@@ -1,0 +1,9 @@
+!.gitignore
+builds/*
+dev/*
+etc/*
+!etc/settings-sample.json
+var/*
+src/System/bin/node_modules/*
+src/System/tmp/*
+src/Contents/Services/node_modules/*

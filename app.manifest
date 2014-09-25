@@ -1,0 +1,82 @@
+{
+	"mode": "debug",
+	"namespace" : "tpl.omneedia.webapp",
+	"title": "App",
+	"description": "Template",
+	"platform": "desktop",
+	"targets": [
+		"webapp"
+	],
+	"uid": "e4182ba0-d423-11e3-9c1a-0800200c9a66",
+	"version": "1.00",
+	"copyright": "XXX",
+	"license": "BSD",
+	"author": {
+		"name": "XXX",
+		"mail": "xxx@xxx.com",
+		"twitter": "@xxx",
+		"web" : "",
+		"github": ""
+	},
+	"team": {
+		"debugger" : [
+			
+		],
+		"tester" : [
+		
+		]
+	},
+	"langs": [
+		"en",
+		"fr"
+	],
+	"frameworks": [
+		{
+			"name": "ext",
+			"version": "4.2.1",
+			"src": "http://cdn.sencha.com/ext/gpl/{version}/ext-all-debug.js",
+			"res": "http://cdn.sencha.com/ext/gpl/{version}/resources/css/ext-all.css"
+		},
+		{
+			"name": "jquery",
+			"version": "2.0.3",
+			"src": "http://cdnjs.cloudflare.com/ajax/libs/jquery/{version}/jquery.js"			
+		}
+	],
+	"paths" : {
+		"Contents": "Contents/Application/app",
+        "Culture": "Contents/Culture",
+        "qx": "http://omneedia.github.io/cdn/qx",
+        "Ext.ux": "http://omneedia.github.io/cdn/ext/ux",
+        "Ext.util": "http://omneedia.github.io/cdn/ext/util"
+	},
+	"modules" : [
+        "qx.Localizer",
+        "qx.App",
+        "qx.Auth",
+        "qx.Uploader",
+        "qx.GlobalMenu",
+        "Ext.ux.Notification"	
+	],
+	"plugins" : [
+	
+	],
+	"api" : [
+		
+	],
+	"packages" : [
+	
+	],
+	"icon": {
+		"background": "#FFFFFF",
+		"file": "app.png"
+	},
+	"splashscreen": {
+		"background": "#FFFFFF",
+		"color": "orange",
+		"file": "app.png"
+	},
+	"server": {
+		"port": 3000
+	}
+}
