@@ -50,6 +50,9 @@
         "Ext.ux": "http://omneedia.github.io/cdn/ext/ux",
         "Ext.util": "http://omneedia.github.io/cdn/ext/util"
 	},
+	"controllers": [
+		"Main"
+	],
 	"modules" : [
         "qx.Localizer",
         "qx.App",
