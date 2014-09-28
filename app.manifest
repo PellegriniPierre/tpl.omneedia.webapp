@@ -52,7 +52,7 @@
         "Ext.util": "http://omneedia.github.io/cdn/ext/util"
 	},
 	"controllers": [
-		"Main"
+		"CMain"
 	],
 	"modules" : [
         "qx.Localizer",
