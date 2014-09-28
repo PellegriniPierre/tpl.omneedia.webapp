@@ -1,7 +1,7 @@
-App.controller.define('Main', {
+App.controller.define('CMain', {
 
 	views: [
-		"Main"
+		"VMain"
 	],
 	
 	models: [
@@ -16,7 +16,7 @@ App.controller.define('Main', {
 			}
 		});
 		
-		App.init('Main',this.onLoad);
+		App.init('VMain',this.onLoad);
 		
 	},
 	clickme_onclick: function()

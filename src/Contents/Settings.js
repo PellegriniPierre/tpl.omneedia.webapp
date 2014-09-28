@@ -42,7 +42,7 @@ Settings = {
         "Ext.ux.Notification"
     ],
     "CONTROLLERS": [
-        "Main"
+        "CMain"
     ],
     "API": [
         

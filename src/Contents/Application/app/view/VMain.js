@@ -1,4 +1,4 @@
-App.view.define('Main', {
+App.view.define('VMain', {
 
     extend: 'Ext.Panel',
 	alias : 'widget.mainform',
