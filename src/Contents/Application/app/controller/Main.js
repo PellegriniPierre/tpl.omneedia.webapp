@@ -11,11 +11,17 @@ App.controller.define('Main', {
 	{
 
 		this.control({
-		
+			"button#clickme": {
+				click: "clickme_onclick"
+			}
 		});
 		
 		App.init('Main',this.onLoad);
 		
+	},
+	clickme_onclick: function()
+	{
+		alert('hello world!');
 	}
 	
 });
