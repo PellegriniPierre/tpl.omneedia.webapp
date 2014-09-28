@@ -4,7 +4,7 @@
 			margin-right:0px;
 			height: 100%;
 			overflow: hidden;
-			background-color:white;
+			background-color:{COLOR};
 			-webkit-backface-visibility: hidden;
 		}
 		#appLoadingIndicator {
@@ -15,7 +15,7 @@
 			height: 25%;
 		}		
 		#bootstrap {
-			background-color:lightgreen;
+			background-color:{BKCOLOR};
 			position:absolute;
 			top:0px;
 			left:0px;
