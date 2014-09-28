@@ -21,9 +21,15 @@ App.view.define('Main', {
 		{
 			region: "center",			
 			split:true,
-			html: "Omneedia Framework"
+			items: [
+				{
+					xtype: "button",
+					itemId: "clickme",
+					text: "Click me",
+					margin: 20
+				}
+			]
 		}
 	]
 	
 });
-	
