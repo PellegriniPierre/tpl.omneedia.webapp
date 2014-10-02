@@ -1,6 +1,6 @@
 {
-	"mode": "debug",
 	"namespace" : "tpl.omneedia.webapp",
+	"git": "",
 	"title": "App",
 	"description": "Template",
 	"platform": "desktop",
