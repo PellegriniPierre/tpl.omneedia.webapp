@@ -45,22 +45,12 @@
 		}
 	],
 	"paths" : {
-		"Contents": "Contents/Application/app",
-        "Culture": "Contents/Culture",
-        "qx": "http://omneedia.github.io/cdn/qx",
-        "Ext.ux": "http://omneedia.github.io/cdn/ext/ux",
-        "Ext.util": "http://omneedia.github.io/cdn/ext/util"
 	},
 	"controllers": [
 		"CMain"
 	],
 	"modules" : [
-        "qx.Localizer",
-        "qx.App",
-        "qx.Auth",
-        "qx.Uploader",
-        "qx.GlobalMenu",
-        "Ext.ux.Notification"	
+	
 	],
 	"plugins" : [
 	
