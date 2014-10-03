@@ -5,4 +5,5 @@ etc/*
 var/*
 src/System/bin/node_modules/*
 src/System/tmp/*
+src/Contents/Settings.js
 src/Contents/Services/node_modules/*
