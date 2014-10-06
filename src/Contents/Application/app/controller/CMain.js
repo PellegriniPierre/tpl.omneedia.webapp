@@ -30,12 +30,12 @@ App.controller.define('CMain', {
 	},
 	clickme_onclick: function()
 	{
-		Ext.Msg.alert('Omneedia',hello world!');
+		Ext.Msg.alert('Omneedia','hello world!');
 	},
 	onLoad: function()
 	{
 		// form loaded	
 	}
-	}
+	
 	
 });
