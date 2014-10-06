@@ -6,3 +6,5 @@ etc/*
 var/*
 src/System/tmp/*
 src/Contents/Settings.js
+src/Contents/Resources/favicon.ico
+src/Contents/Resources/startup/*
