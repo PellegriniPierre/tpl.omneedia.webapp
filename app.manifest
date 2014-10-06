@@ -44,6 +44,9 @@
 			"src": "http://cdnjs.cloudflare.com/ajax/libs/jquery/{version}/jquery.js"			
 		}
 	],
+	"auth": [
+    
+    	],	
 	"paths" : {
 	},
 	"controllers": [
