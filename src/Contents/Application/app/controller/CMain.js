@@ -22,7 +22,7 @@ App.controller.define('CMain', {
 		App.init('VMain',this.onLoad);
 		
 	},
-	Menu_onClick: function()
+	Menu_onClick: function(p)
 	{
 		if (p.itemId) {
 			Ext.Msg.alert('Status', 'Click event on '+p.itemId);
