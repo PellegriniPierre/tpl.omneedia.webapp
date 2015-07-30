@@ -240,6 +240,7 @@
 							if (__SESSION__!=data.session) location.reload();
 						}).fail(function() {
 							$('.omneedia-overlay').show();
+							App.blur();
 						});
 					},1000);				
 					require(["Contents/Application/app"], function() {					
